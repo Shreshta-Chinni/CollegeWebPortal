@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact details</title>
+    </head>
+        <style>
+            body{
+                background: #fff;
+                font-size: 14px;
+            }
+            .container{
+                width: 80%;
+                margin: 50px auto;
+            }
+            .contact-box{
+                background: cadetblue;
+                display:flex
+            }
+            .contact-left{
+                flex-basis: 60%;
+                padding: 40px 60px;
+                font-size: larger;
+            }
+            .contact-right{
+                flex-basis: 40%;
+                padding: 40px 60px;
+                background: black;
+                color: white;
+                font-size: larger;
+            }
+            h1{
+                margin-bottom: 40px;
+                background-color: cadetblue;
+                padding: 5%;
+                color: white;
+                text-align: center;
+                font-size: 50px;
+            }
+            p{
+                background-color: black;
+                color: white;
+                padding: 2%;
+                font-size: 15px;
+            }
+            .input-group label{
+                font-size: larger;
+            }
+            .input-row{
+                display:flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+            }
+            .input{
+                width: 100;
+                border: none;
+                border-bottom: 1px solid#ccc;
+                outline: none;
+                padding-bottom: 5px;
+            }
+            button{
+                margin-top: 30px;
+                background-color: black;
+                width:100px;
+                outline:none;
+                color:white;
+                height: 35px;
+            }
+            button :hover{
+                background-color: cornflowerblue;
+            }
+            .contact-left h3{
+                color: black;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+            .contact-right h3{
+                color: white;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+            tr td:first-child{
+                padding: 6px;         
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Connect With Us.</h1>
+            <p>We would love to respond to your queries and help succeed.<br>
+               Feel free to get in touch with us.</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send your request</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name : </label>
+                                <input type="text" placeholder="enter name">
+                            </div>
+                            <div class="input-group">
+                                <label>Phone  : </label>
+                                <input type="text" placeholder="enter number">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email : </label>
+                                <input type="text" placeholder="enter mail">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject : </label>
+                                <input type="text" placeholder="enter subject">
+                            </div>
+                        </div>
+                        <lable>Message</lable>
+                        <textarea row="20" placeholder="Your message"></textarea>
+                    </form>
+                    <button type="submit">SUBMIT</button>
+                </div>
+                <div class="contact-right">
+                <h3>Reach Us</h3>
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td>contactus@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td>+91 9398****</td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td>#212, ground floor, 7th cross</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Uppal, Hyderabad</td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
